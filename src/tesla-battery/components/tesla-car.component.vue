@@ -8,17 +8,17 @@
 </template>
 
 <script>
-    export default {
-        name: 'tesla-car',
-        props: {
-            wheels: {
-                type: Number,
-                required: true,
-            },
-            speed: {
-                type: Number,
-                required: true,
-            }
-        }
-    };
+export default {
+  name: 'tesla-car',
+  props: {
+    wheels: {
+      type: Number,
+      required: true,
+    },
+    speed: {
+      type: Number,
+      required: true,
+    },
+  },
+};
 </script>
